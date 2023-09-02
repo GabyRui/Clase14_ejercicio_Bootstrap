@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bi-arrow-right-circle{
+    color:blue;
+}
+
+.row{
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.h1-title{
+    font-weight: 600;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+/* Cards de 5 */
+
+.card{
+    box-shadow: 0 0 10px rgba(238, 238, 238, 0.9);
+    border: solid whitesmoke;
+}
+
+.card-img-top{
+    width: 80px;
+    margin-top: 20px;
+}
+
+/* Franja final----------------------------------------- */
+
+.image-contenedor{
+    overflow: hidden;
+    width: 500px;
+    height: 420px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    bottom: -370px;
+    left: -130px;
+}
+
+.img-doctora{
+    width: 500px;
+    height: 480px;
+    object-fit: cover;
+    position: relative;
+    right: 70px;
+}
+
+.img-fluid{
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.card-body{
+    margin-bottom: 30px;
+}
+
+.cards-final{
+    position: relative;
+    left: 130px;
+    bottom: 180px;
+}
