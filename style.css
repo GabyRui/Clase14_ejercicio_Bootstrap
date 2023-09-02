@@ -1,20 +1,71 @@
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.contenedor-imagen{
+    background-color: white;
+    border-radius: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.bi-arrow-right-circle{
+.image_card1{
+    width: 70px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+.h3_card1{
+    font-weight: 630;
+    margin-bottom: 10px;
+}
+
+
+.card-1:hover{
+    background-color: rgb(24, 24, 209);
+    color: white;
+    box-shadow: 0 0 13px rgba(214, 214, 214, 0.8);
+}
+
+/* Franja2------------------------ */
+
+.contenedor-imagen2{
+    background-color: red;
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_card2{
+    width: 30px;
+}
+
+.card-2:hover{
+    background-color: rgb(24, 24, 209);
+    color: white;
+    box-shadow: 0 0 13px rgba(214, 214, 214, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+/* .bi-arrow-right-circle{
     color:blue;
 }
 
 .row{
     align-items: center;
     margin-top: 30px;
-
 }
 
 .h1-title{
@@ -27,7 +78,7 @@
 
 /* Cards de 5 */
 
-.card{
+/* .card{
     box-shadow: 0 0 10px rgba(238, 238, 238, 0.9);
     border: solid whitesmoke;
 }
@@ -39,7 +90,7 @@
 
 /* Franja final----------------------------------------- */
 
-.image-contenedor{
+/* .image-contenedor{
     overflow: hidden;
     width: 500px;
     height: 420px;
@@ -55,7 +106,7 @@
     height: 480px;
     object-fit: cover;
     position: relative;
-    right: 70px;
+    right: 70px
 }
 
 .img-fluid{
@@ -75,4 +126,4 @@
     position: relative;
     left: 130px;
     bottom: 180px;
-}
+} */ 
